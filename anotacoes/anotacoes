@@ -1,0 +1,21 @@
+ANOTAÇÕES GERAIS SOBRE O PROJETO
+
+O programa tem como objetico cadastrar clientes com suas informações bancárias, atualizar, alterar, listar e deletar.
+o identificador da conta sera feito pelo numero da conta, id, ou cpf
+
+* ENTIDADE (CLIENTE):
+  > @Entity: mapeia a classe para o banco.
+  > @Id: identificador id.
+  > @GeneratedValue(strategy = GenerationType.IDENTITY): gera id automático incrementando de um em um, e o id não se repete.
+  > @Getter, @Setter, @Tostring: gerados sem precisar de muitas linhas de codigos, través da dependencia lombok
+  
+
+* CONTROLLER:
+  > @PostMapping: teria a função (de uma forma geral), de criar/salvar as informações no banco de dados
+  > @
+  
+ * SERVICE:
+  > 
+  
+  * API CONFIGURATION:
+   > 
